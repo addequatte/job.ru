@@ -1,0 +1,82 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+.s_main {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 11;
+}
+.main_side .box {
+	margin-bottom: 20px;
+}
+.box .form-group {
+	margin-bottom: 0;
+}
+.panel-heading {
+	border-radius: 0;
+	padding: 5px;
+}
+.box_back h5 {
+	display: inline;
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 14px;
+}
+.box_back .btn {
+	font-size: 12px;
+	text-transform: none;
+	font-family: "OpenSansBold", sans-serif;
+	float: right;
+}
+.box_back .input-group {
+	margin-bottom: 10px;
+}
+.box_back .input-group:last-child {
+	margin-bottom: 0;
+}
+.panel-group {
+	font-family: "OpenSansBold", sans-serif;
+	font-size: 14px;
+}
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+	font-size: 14px;
+}
+.main_footer {
+	background-color: #1f2b55;
+	padding: 25px 0;
+}
+.footer_links {
+	color: #fff;
+	font-size: 15px;
+	line-height: 23px;
+	font-family: "RobotoRegular", sans-serif;
+}
+.footer_links_cont {
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	font-family: "RobotoSansBold", sans-serif;
+}
